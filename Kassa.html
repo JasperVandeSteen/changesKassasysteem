@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="Module" src="JS/Kassa.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Etentje(kassa)</title>
+</head>
+<body>
+    <p id="test"></p>
+    <div id="KassaFamilyRegion" class="FamilyRegion">
+        <label>Geef de <b>famillie naam</b> in:</label>
+        <input class= "Medium-Input" type="text" placeholder="famillie naam" id="search-Familie">
+        <button id="search-Familie-btn">Search</button>
+        <div id="F_total">
+            
+        </div>  
+
+        <div id="linksZwevend">
+            <div id="F_AllOrder">
+                
+            </div> 
+            <br>
+            <select Name="Payment Method" Size="1" id="PaymentWay">  
+                <option> Contant </option>  
+                <option> Kaart </option>  
+            </select>  
+            <p id="PayMelding"></p>
+            <p class="btn" id="PayOrder">Pay Selected</p>
+            <p class="btn" id="PayAllOrder">Pay All</p>
+            
+
+        </div>
+        <div class="leftFloat">
+
+        </div>
+        <div id="F_AllLines">
+            
+        </div> 
+        <div id="F_Reciept">
+        </div>  
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Etentje(admin)</title>
+    <script type="Module" src="JS/Admin.js"></script>
+</head>
+<body>
+    <div id="LastTenOrders">
+
+    </div>
+    <div id="ReprintOption">
+        <h2>Reprint Tickets</h2>
+        <label>From Order ID</label>
+        <input type="number" id="from_O_ID">
+        <label>To Order ID</label>
+        <input type="number" id="to_O_ID">
+        <p>Update de print status in de:</p>
+        <label for="Bar">De Bar</label>
+        <input type="checkbox" id="Bar">
+        <label for="Keuken">De Keuken</label>
+        <input type="checkbox" id="Keuken">
+        <br><br>
+        <button id="print-btn">Print</button>
+        <div id="status"></div>
+    </div>
+    
+</body>
+</html>
