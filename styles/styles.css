@@ -163,13 +163,17 @@ label b {
     display: none;
 }
 
-#linksZwevend {
+/* #linksZwevend {
     float: left;
     margin-left: 5%;
     width: 25%;
+} */
+
+#ordersFlex {
+    display: flex;
 }
 
-#linksZwevend .btn {
+#ordersFlex .btn {
     margin-left: 0;
 }
 
@@ -243,6 +247,7 @@ b {
 
 .Medium-Input {
     width: 10em;
+    margin: 0 0.5em;
 }
 
 @media (min-width: 600px) {
