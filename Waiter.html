@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="Module" src="JS/Waiter.js"></script>
-        <link rel="stylesheet" href="styles/styles.css">
-        <title>Etentje(waiter)</title>
-    </head>
-    
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script type="Module" src="JS/Waiter.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Etentje(waiter)</title>
+</head>
+
 <body>
     <div id="WaiterRegion" class="WaiterRegion">
         <label>Geef je <b>Ober ID</b> in:</label>
-        <input type="number" placeholder="ID" id="search-Waiter">
+        <input type="number" pattern="[0-9]*" placeholder="ID" id="search-Waiter">
         <button id="search-Waiter-btn">Zoek</button>
-        <div id="WaiterName"> 
-        </div>  
+        <div id="WaiterName">
+        </div>
     </div>
     <div>
         <p><b>Vorige Order:</b>
@@ -30,8 +31,8 @@
         <input type="text" placeholder="naam" id="search-Familie">
         <button id="search-Familie-btn">Zoek</button>
         <div id="FamilyName">
-            
-        </div>  
+
+        </div>
     </div>
     <div id="OptionBTN" class="OptionBTN">
         <p class="btn" id="Dranken">Dranken</p>
@@ -40,12 +41,12 @@
     </div>
     <form id="OrderForm">
         <div id="BESTELFORM">
-        </div> 
+        </div>
         <label><b>Opmerking</b></label>
         <textarea placeholder="Opmerking" id="Opmerking"></textarea>
         <br><br><br>
         <label><b>Tafel nummer</b>
-        <input type="number" placeholder="ID" id="search-Table"/></label>
+            <input type="number" placeholder="ID" id="search-Table" /></label>
         <p class="btn" id="Submit">Indienen</p>
     </form>
     <div id="SendMessage">
@@ -54,4 +55,5 @@
     <p class="btn" id="ClearTillFamillie">Reset</p>
 
 </body>
+
 </html>
