@@ -169,18 +169,31 @@ label b {
     width: 25%;
 } */
 
+.FamilyRegion {
+    margin: 2%;
+}
+
 #ordersFlex {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 #ordersFlex .btn {
     margin-left: 0;
 }
 
+#payField {
+    width: 30%;
+}
+
+.Order {
+    border-radius: 1em;
+    padding: 1em;
+}
+
 #F_AllOrder .Order {
     background-color: #3A4446;
-    padding: 2%;
-    border-radius: 2em;
     margin-bottom: 2em;
     display: flex;
 }
@@ -204,11 +217,9 @@ label b {
 
 #F_AllLines .Order {
     width: 24%;
-    margin-right: 5%;
+    margin-right: 4%;
     margin-bottom: 5%;
     background-color: #3A4446;
-    padding: 2%;
-    border-radius: 2em;
 }
 
 b {
@@ -233,8 +244,6 @@ b {
 
 #F_Reciept .Order {
     background-color: #3A4446;
-    padding: 2%;
-    border-radius: 2em;
     margin-bottom: 2em;
 }
 
