@@ -59,6 +59,7 @@ function FamillieOnHTML() {
 		});
 		document.getElementById('FamilyName').innerHTML = tempHTML;
 		document.getElementById('OptionBTN').style.display = 'flex';
+		document.getElementById('OptionBTN').style.justifyContent = 'space-between';
 	} else {
 		console.log('else');
 		tempHTML = '<p>Famillie ID/Naam bestaat niet in het systeem!</p>';

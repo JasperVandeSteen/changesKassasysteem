@@ -81,6 +81,10 @@ button,
     font-weight: bold;
 }
 
+#OptionBTN .btn {
+    font-size: 1em;
+}
+
 select {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -119,8 +123,8 @@ textarea {
 }
 
 textarea {
-    max-width: 90%;
-    margin-left: 4%;
+    text-align: left;
+    padding: 2%;
     height: 2em;
 }
 
@@ -259,6 +263,10 @@ b {
     margin: 0 0.5em;
 }
 
+#waiterBody {
+    margin: 5%;
+}
+
 @media (min-width: 600px) {
     .HeadIntro {
         padding-top: 8em;
@@ -292,6 +300,6 @@ b {
 
 #Opmerking {
     margin-top: 1em;
-    width: 100%;
+    width: 97%;
     height: 5em;
 }
