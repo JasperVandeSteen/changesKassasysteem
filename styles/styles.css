@@ -4,6 +4,8 @@ body {
     background-color: #151718;
     font-family: 'Arimo', sans-serif;
     max-width: 100%;
+
+    margin: 2%;
 }
 
 @media print {
@@ -173,10 +175,6 @@ label b {
     width: 25%;
 } */
 
-.FamilyRegion {
-    margin: 2%;
-}
-
 #ordersFlex {
     display: flex;
     justify-content: space-between;
@@ -267,7 +265,28 @@ b {
     margin: 5%;
 }
 
+#backBtn {
+    display: none;
+}
+
 @media (min-width: 600px) {
+    #backBtn {
+        display: block;
+        position: absolute;
+        top: 4%;
+        right: 3%;
+    }
+
+    #backBtn a {
+        text-decoration: none;
+        color: #388FD1;
+        cursor: pointer;
+    }
+
+    #backBtn a:hover {
+        text-decoration: underline;
+    }
+
     .HeadIntro {
         padding-top: 8em;
     }
@@ -302,4 +321,21 @@ b {
     margin-top: 1em;
     width: 97%;
     height: 5em;
+}
+
+#LastTenOrders {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin-right: 2%;
+}
+
+#LastTenOrders p {
+    margin: 2%;
+    display: inline-block;
+    width: fit-content;
+}
+
+#ordersAndPrintFlex {
+    display: flex;
 }
